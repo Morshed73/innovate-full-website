@@ -8,11 +8,7 @@ $('.service-slider').slick({
     prevArrow: '<i class="fa-solid fa-arrow-left previous"></i>',
     nextArrow: '<i class="fa-solid fa-arrow-right next"></i>',
   });
-  //========== counter ===========//
-  $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-});
+ 
 // ========== feedBack slider =========//
 $('.feedBack-slider').slick({
   slidesToShow: 1,
@@ -48,4 +44,9 @@ $(window).scroll(function() {
 btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
+});
+ //========== counter ===========//
+ $('.counter').counterUp({
+  delay: 10,
+  time: 1000
 });
