@@ -45,6 +45,7 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
  //========== counter ===========//
  $('.counter').counterUp({
   delay: 10,
