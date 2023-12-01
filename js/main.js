@@ -7,6 +7,29 @@ $('.service-slider').slick({
     dots:true,
     prevArrow: '<i class="fa-solid fa-arrow-left previous"></i>',
     nextArrow: '<i class="fa-solid fa-arrow-right next"></i>',
+    responsive: [
+      {
+        breakpoint: 768,
+          settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   });
  
 // ========== feedBack slider =========//
