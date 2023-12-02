@@ -2,23 +2,38 @@
 $('.service-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     dots:true,
     prevArrow: '<i class="fa-solid fa-arrow-left previous"></i>',
     nextArrow: '<i class="fa-solid fa-arrow-right next"></i>',
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 319,
           settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         }
       },
       {
-        breakpoint: 992,
+        breakpoint: 480,
+          settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      },
+      {
+        breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
           slidesToScroll: 1,
         }
       },
@@ -41,6 +56,44 @@ $('.feedBack-slider').slick({
   dots:true,
   prevArrow: '<i class="fa-solid fa-arrow-left previous"></i>',
   nextArrow: '<i class="fa-solid fa-arrow-right next"></i>',
+  responsive: [
+    {
+      breakpoint: 319,
+        settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 480,
+        settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+  ]
 });
 // ========== Navbar ========== //
 let main_menu = document.querySelector('.main-menu');
