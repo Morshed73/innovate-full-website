@@ -9,14 +9,14 @@ $('.service-slider').slick({
     nextArrow: '<i class="fa-solid fa-arrow-right next"></i>',
     responsive: [
       {
-        breakpoint: 319,
+        breakpoint: 321,
           settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 426,
           settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -24,21 +24,21 @@ $('.service-slider').slick({
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 769,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
         }
       },
       {
-        breakpoint: 1024,
+        breakpoint: 1025,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
         }
       },
       {
-        breakpoint: 1200,
+        breakpoint: 1441,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
@@ -58,14 +58,14 @@ $('.feedBack-slider').slick({
   nextArrow: '<i class="fa-solid fa-arrow-right next"></i>',
   responsive: [
     {
-      breakpoint: 319,
+      breakpoint: 321,
         settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 426,
         settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -73,21 +73,21 @@ $('.feedBack-slider').slick({
       }
     },
     {
-      breakpoint: 768,
+      breakpoint: 769,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
       }
     },
     {
-      breakpoint: 1024,
+      breakpoint: 1025,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
       }
     },
     {
-      breakpoint: 1200,
+      breakpoint: 1441,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,

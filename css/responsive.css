@@ -1,5 +1,5 @@
 /* ========== mobile device ========== */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 425px) {
     /* ===== common start ===== */
     .common-heading {
         font-size: 21px;
@@ -431,7 +431,7 @@
     /* ===== footer end ===== */
 }
 /* ========== tablet device ========== */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 769px) {
     /* ===== common start ===== */
     .common-heading {
         font-size: 24px;
@@ -484,7 +484,7 @@
     /* ===== navbar end ===== */
     /* ===== banner start ===== */
     #banner {
-        padding: 110px 18px 20px;
+        padding: 110px 18px 40px;
     }
     #banner .dot-animation {
         bottom: 40px;
@@ -856,7 +856,134 @@
     }
     /* ===== footer end ===== */
 }
-/* ========== laptop screen device ========== */
-@media (min-width: 769px) and (max-width: 1024px) { }
+/* ========== laptop device ========== */
+@media (min-width: 770px) and (max-width: 1024px) {
+    /* ===== navbar start ===== */
+    .main-menu ul {
+        gap: 35px;
+    }
+    .menu-button{
+        display: flex;
+        align-items: center;
+    }
+    .menu-button .consultation {
+        font-size: 14px;
+        padding: 14px 18px;
+    }
+    /* ===== navbar end ===== */
+    /* ===== banner start ===== */
+    #banner {
+        padding: 150px 0 88px;
+    }
+    #banner .dot-animation {
+        bottom: 220px;
+    }
+    .banner-main .banner-text .banner-button {
+        margin: 40px 0;
+    }
+    .banner-main .review {
+        padding-top: 40px;
+    }
+    .banner-play {
+        height: 190px;
+        width: 190px;
+        right: -7px;
+    }
+    .banner-model {
+        left: 0%;
+        bottom: -50%;
+    }
+    /* ===== banner end ===== */
+    /* ===== about start ===== */
+    .about-img .about-shape {
+        width: 220px;
+    }
+    .about-text p {
+        padding-bottom: 14px;
+    }
+    .about-text ul {
+        padding-bottom: 14px;
+    }
+    /* ===== about end ===== */
+    /* ===== service start ===== */
+    .service-slider .previous, .service-slider .next {
+        bottom: -115px;
+    }
+    .service-slider .next {
+        right: 38%;
+    }
+    .service-slider .previous {
+        left: 38%;
+    }
+    /* ===== service end ===== */
+    /* ===== solution start ===== */
+    .solution-img .solution-shape-3 {
+        width: 100px;
+        top: 50px;
+        left: 80px;
+    }
+    .solution-img .experience-img {
+        left: 85px;
+        width: 280px;
+    }
+    .solution-img .dotPattern-2 {
+        bottom: 27px;
+    }
+    /* ===== solution end ===== */
+    /* ===== team start ===== */
+    .team-items .team-img .team-info {
+        padding: 15px 15px 15px 21px;
+    }
+    .team-items .team-img .team-info::after {
+        width: 20px;
+        left: 10px;
+        top: 38px;
+    }
+    .fab:hover {
+        height: 215px;
+    }
+    .minifab {
+        margin-bottom: 14px;
+    }
+    /* ===== team end ===== */
+    /* ===== faq start ===== */
+    #faq {
+        margin-top: 40px;
+    }
+    .faq-img .faq-shape {
+        top: 200px;
+        right: 20px;
+        width: 90px;
+    }
+    .faq-img .faq-dot {
+        right: 155px;
+        bottom: 20px;
+    }
+    /* ===== faq end ===== */
+    /* ===== counter start ===== */
+    .counter-main .counter-items {
+        gap: 60px;
+    }
+    .counter-main .counter-brand-logo .brand-logo {
+        padding: 13px 18px;
+    }
+    /* ===== counter end ===== */
+    /* ===== feedback start ===== */
+    .feedBack-slider .previous {
+        left: 38%;
+    }
+    .feedBack-slider .next {
+        right: 38%;
+    }
+    /* ===== feedback end ===== */
+    /* ===== blog start ===== */
+    .blog-item .publisher-info {
+        gap: 5px;
+    }
+    .blog-item .blogger-info .sub-info {
+        font-size: 14px;
+    }
+    /* ===== blog end ===== */
+}
 /* ========== desktop screen device ========== */
-@media (min-width: 1025px) and (max-width: 1200px) { }
+@media (min-width: 1025px) and (max-width: 1440px) { }

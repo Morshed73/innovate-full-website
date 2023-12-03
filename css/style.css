@@ -690,6 +690,10 @@ p, h1, h2, h3, h4, h5, h6, ul, ol{
 #solution{
     padding: 160px 0;
 }
+.solution{
+    display: flex;
+    align-items: center;
+}
 .solution-texts p{
     font-size: 18px;
     font-weight: 400;
@@ -896,7 +900,7 @@ p, h1, h2, h3, h4, h5, h6, ul, ol{
             .minifabIcon {
                 height: 24px;
                 width: 24px;
-                margin-top: 12px;
+                margin-top: 15px;
                 color: #5B5F77;
             }
             /* ================================
