@@ -168,6 +168,12 @@
         width: 81px;
         top: 30px;
     }
+    .service-slider .service-animation-2::after {
+        top: 71px;
+    }
+    .service-slider .service-animation-4::after {
+        top: 71px;
+    }
     .service-item-text h3{
         font-size: 20px;
     }
@@ -425,7 +431,431 @@
     /* ===== footer end ===== */
 }
 /* ========== tablet device ========== */
-@media (min-width: 481px) and (max-width: 768) { }
+@media (min-width: 481px) and (max-width: 768px) {
+    /* ===== common start ===== */
+    .common-heading {
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 10px;
+    }
+    .common-button {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+    /* ===== common end ===== */
+    /* ===== navbar start ===== */
+    #navbar .main-menu .navbar-brand img{
+        width: 85px;
+    }
+    .navbar-toggler-icon {
+        width: 25px;
+        height: 25px;
+    }
+    .navbar-collapse {
+        background-color: rgba(83, 198, 183, 0.85);
+    }
+    .main-menu ul {
+        gap: 30px;
+    }
+    .main-menu ul li {
+        justify-content: center;
+    }
+    .main-menu ul li a {
+        font-size: 14px;
+    }
+    .main-menu ul li i {
+        font-size: 14px;
+        padding-left: 6px;
+    }
+    .menu-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 10px;
+    }
+    .menu-button .login {
+        font-size: 16px;
+    }
+    .menu-button .consultation {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    /* ===== navbar end ===== */
+    /* ===== banner start ===== */
+    #banner {
+        padding: 110px 18px 20px;
+    }
+    #banner .dot-animation {
+        bottom: 40px;
+    }
+    .banner-main .banner-text {
+        width: 420px;
+    }
+    .banner-main .banner-text h1 {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 14px;
+    }
+    .banner-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .banner-main .banner-text .banner-button {
+        margin: 10px 0;
+    }
+    .banner-signin img {
+        display: none;
+    }
+    .banner-main .banner-text p a {
+        color: #53c6b7;
+    }
+    .banner-main .review {
+        padding-top: 20px;
+    }
+    .review .review-text {
+        padding-left: 115px;
+    }
+    .review p {
+        font-size: 16px;
+    }
+    .banner-main .banner-play {
+        display: none;
+    }
+    .banner-model {
+        display: none;
+    }
+    /* ===== banner end ===== */
+    /* ===== about start ===== */
+    .about-img {
+        display: none;
+    }
+    #about {
+        padding: 25px 0;
+    }
+    .about-text h4 {
+        font-size: 18px;
+    }
+    .about-text {
+        align-items: center;
+        text-align: center;
+    }
+    .about-text p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 14px;
+    }
+    .about-text ul {
+        padding-bottom: 15px;
+        gap: 14px;
+    }
+    .about-text ul li span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about-text ul li i {
+        height: 18px;
+        width: 18px;
+        line-height: 18px;
+        font-size: 10px;
+    }
+    /* ===== about end ===== */
+    /* ===== service start ===== */
+    #service {
+        padding: 25px 0;
+    }
+    .service-text {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .service-text .service-heading h4 {
+        font-size: 18px;
+    }
+    .service-text .service-detail {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .service-slider .previous, .service-slider .next {
+        font-size: 20px;
+        padding: 10px;
+        bottom: -75px;
+    }
+    .service-slider .next {
+        right: 28%;
+    }
+    .service-slider .previous {
+        left: 28%;
+    }
+    .slick-slide img {
+        width: 61px;
+    }
+    .service-slider .service-animation-1, 
+    .service-slider .service-animation-2, 
+    .service-slider .service-animation-3, 
+    .service-slider .service-animation-4 {
+        height: 81px;
+        width: 81px;
+        top: 30px;
+    }
+    .service-slider .service-animation-2::after {
+        top: 71px;
+    }
+    .service-slider .service-animation-4::after {
+        top: 71px;
+    }
+    .service-item-text h3{
+        font-size: 20px;
+    }
+    .service-item-text p {
+        font-size: 14px;
+    }
+    .service-slider .slick-dots {
+        margin-top: 50px;
+    }
+    /* ===== service end ===== */
+    /* ===== solution start ===== */
+    #solution {
+        padding: 70px 0 25px;
+    }
+    .solution-texts p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 15px;
+    }
+    .solution-info {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        padding-top: 25px;
+    }
+    .solution-info .investment-solution h3, 
+    .solution-info .idea-solution h3 {
+        font-size: 19px;
+        line-height: 23px;
+        padding-bottom: 0px;
+    }
+    .solution-info .investment-solution p, 
+    .solution-info .idea-solution p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .solution-img .solution-shape-3 {
+        width: 90px;
+        top: 65px;
+        left: 105px;
+    }
+    .solution-img .experience-img {
+        bottom: 20px;
+        left: 85px;
+        width: 270px;
+    }
+    .solution-img .dotPattern-2 {
+        bottom: 35px;
+        right: 104px;
+        width: 135px;
+    }
+    /* ===== solution end ===== */
+    /* ===== team start ===== */
+    .team-heading {
+        padding-top: 50px;
+    }
+    .team-heading h2 {
+        padding-bottom: 25px;
+    }
+    .team-heading h4 {
+        font-size: 18px;
+    }
+    .team-items {
+        padding-bottom: 30px;
+        width: 230px;
+        margin: 0 auto;
+    }
+    .team-items .team-img .team-info {
+        padding: 11px 19px 11px 25px;
+        gap: 0;
+    }
+    .team-items .team-img .team-info::after {
+        width: 13px;
+        left: 7px;
+    }
+    .team-items .team-img .team-info h4 {
+        font-size: 14px;
+    }
+    .team-items .team-img .team-info p {
+        font-size: 12px;
+    }
+    .fab:hover {
+        height: 190px;
+    }
+    .minifab {
+        margin-bottom: 5px;
+    }
+    .minifabIcon {
+        margin-top: 15px;
+    }
+    /* ===== team end ===== */
+    /* ===== faq start ===== */
+    #faq {
+        margin-top: 220px;
+        padding: 110px 0 25px;
+    }
+    .faq-items {
+        gap: 20px;
+    }
+    .faq-img .faq-shape {
+        top: 220px;
+        right: 20px;
+        width: 100px;
+    }
+    .faq-img .faq-dot {
+        right: 200px;
+    }
+    .faq-content .accordion-item {
+        margin-bottom: 10px;
+    }
+    .faq-content .accordion-item .accordion-header h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .faq-content .accordion-item .accordion-body p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    /* ===== faq end ===== */
+    /* ===== counter start ===== */
+    #counter-part {
+        padding: 25px 0;
+    }
+    .counter-body {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .counter-heading {
+        gap: 15px;
+        align-items: center;
+    }
+    .counter-heading h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .counter-main {
+        gap: 10px;
+        width: 440px;
+        text-align: center;
+        align-items: center;
+    }
+    .counter-main .counter-items {
+        display: flex;
+        gap: 70px;
+    }
+    .counter-main .counter-brand-logo .brand-logo {
+        padding: 13px 13px;
+    }
+    .counter-main .counter-brand-logo .brand-logo a img {
+        width: 65px;
+    }
+    .counter-main .counter-item h3 {
+        font-size: 30px;
+        line-height: 0px;
+    }
+    .counter-main .counter-item p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    /* ===== counter end ===== */
+    /* ===== feedback start ===== */
+    #feedBack {
+        padding: 25px 0;
+    }
+    .feedBack-heading {
+        width: fit-content;
+        text-align: center;
+    }
+    .feedBack-slider .previous, .feedBack-slider .next {
+        font-size: 20px;
+        padding: 10px;
+        bottom: -17px;
+    }
+    .feedBack-slider .previous {
+        left: 28%;
+    }
+    .feedBack-slider .next {
+        right: 28%;
+    }
+    /* ===== feedback end ===== */
+    /* ===== blog start ===== */
+    #blog {
+        padding: 25px 0;
+    }
+    .blog-heading {
+        padding-bottom: 15px;
+    }
+    .blog-heading h4 {
+        font-size: 18px;
+    }
+    .blog-items{
+        gap: 20px;
+    }
+    .blog-item .blog-info {
+        gap: 8px;
+        padding-top: 15px;
+    }
+    .blog-item .blog-info .blog-sub-heading {
+        font-size: 21px;
+        line-height: 23px;
+    }
+    .blog-item .blog-info p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .blog-item .blogger-info {
+        padding-top: 10px;
+    }
+    .blog-item .blogger-info .blogger-img img {
+        width: 43px;
+    }
+    .blog-item .publisher-info {
+        gap: 10px;
+    }
+    .blog-item .blogger-info .sub-info {
+        font-size: 14px;
+    }
+    /* ===== blog end ===== */
+    /* ===== footer start ===== */
+    .footer-body {
+        padding: 25px 0;
+        flex-direction: column;
+        gap: 21px;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-body .footer-logo img{
+        width: 75px;
+    }
+    .footer-body .footer-item-1, 
+    .footer-body .footer-item-2, 
+    .footer-body .footer-item-3, 
+    .footer-body .footer-item-4, 
+    .footer-body .footer-item-5 {
+        align-items: center;
+        gap: 12px;
+    }
+    .footer-body .footer-sub-heading {
+        line-height: 15px;
+    }
+    .footer-body .footer-info {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #footer .copy-right {
+        font-size: 14px;
+        text-align: center;
+    }
+    /* ===== footer end ===== */
+}
 /* ========== laptop screen device ========== */
 @media (min-width: 769px) and (max-width: 1024px) { }
 /* ========== desktop screen device ========== */
