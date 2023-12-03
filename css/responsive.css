@@ -52,7 +52,7 @@
     /* ===== navbar end ===== */
     /* ===== banner start ===== */
     #banner {
-        padding: 100px 18px 20px;
+        padding: 100px 18px 40px;
     }
     #banner .dot-animation {
         bottom: 0px;
@@ -528,10 +528,19 @@
     /* ===== banner end ===== */
     /* ===== about start ===== */
     .about-img {
-        display: none;
+        /* display: none; */
     }
     #about {
         padding: 25px 0;
+    }
+    .order-1 {
+        order: 2!important;
+    }
+    .order-2 {
+        order: 1!important;
+    }
+    .about-img .about-shape {
+        width: 200px;
     }
     .about-text h4 {
         font-size: 18px;
